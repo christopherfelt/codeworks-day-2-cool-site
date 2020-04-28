@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --header-footer-color: #1c4587;
+  --border-color: #cfe2f3;
+  --image-placeholder-color: #4b86e8;
+  --left-space-width: 20%;
+  --main-article-width: 40%;
+  --middle-space-width: 10%;
+  --suggested-article-width: 20%;
+}
+
+/* * {
+  outline: 1px solid green;
+} */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header,
+footer {
+  background-color: var(--header-footer-color);
+  color: white;
+  border: 1px solid black;
+}
+
+header {
+  text-align: center;
+}
+
+.header-title {
+  font-size: 5em;
+}
+
+main {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.left-space-width {
+  width: var(--left-space-width);
+}
+
+.middle-space-width {
+  width: var(--middle-space-width);
+}
+
+.main-article {
+  display: inline-block;
+  width: var(--main-article-width);
+  text-align: left;
+}
+
+.main-article-top-border {
+  background-color: var(--border-color);
+  padding: 10px 0;
+}
+
+.main-article-title {
+  font-size: 3.5em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main-article-text-width {
+  width: 90%;
+  margin-left: 4em;
+}
+
+.main-article-text-block {
+  font-size: large;
+}
+
+.suggested-article {
+  display: inline-block;
+  width: var(--middle-space-width);
+  vertical-align: top;
+  margin-top: 3em;
+}
+
+.suggested-article-description,
+.suggested-article-title,
+.suggested-article-text {
+  padding: 0;
+  margin: 0;
+}
+
+.suggested-article-title {
+  text-align: left;
+  font-weight: 300;
+}
+
+.suggested-article-text {
+  font-size: smaller;
+  text-align: left;
+}
+
+footer {
+  height: 100px;
+}
